@@ -22,5 +22,5 @@ _start:
 
 section .data:
 	
-	message: db "Hello Assembly!", 0xA
+	message: db "Hello everyone", 0xA
 	message_length equ $-message
